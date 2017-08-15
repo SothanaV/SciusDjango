@@ -24,17 +24,32 @@ class Note(models.Model):
 	message=models.TextField()
 ```
 
-* create superuser
+* create superuser {username: admin, password: qwer1234}
 ```sh
 python manage.py createsuperuser
 ```
 
 * add app in setting.py
+```python
+INSTALLED_APPS = [
+	.
+	.
+	.
+    'django.contrib.staticfiles',
+    'app',
+    'crispy_forms',
+]
+```
 
 * run server to check the admin page
 ```
-http://localhost:8000/admin
+python manage.py runserver
 ```
+
+* then open web browser and go to http://localhost:8000/admin
+
+# Add a leave-note page
+
 * make directory /app/templates
 
 * create /app/form.py
