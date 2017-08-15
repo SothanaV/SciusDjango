@@ -19,5 +19,6 @@ from app import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^home/$', views.home, name='home'),
     url(r'^note/$', views.CreateNoteView.as_view(), name='note'),
 ]
