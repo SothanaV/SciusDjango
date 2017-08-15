@@ -10,7 +10,7 @@ pip install -r requirements.txt
 python manage.py startproject demo
 ```
 
-*start application and named "app"
+* start application and named "app"
 ```sh
 python manage.py startapp app
 ```
@@ -25,6 +25,9 @@ class Note(models.Model):
 ```
 
 * create superuser
+```sh
+python manage.py createsuperuser
+```
 
 * add app in setting.py
 
