@@ -5,11 +5,17 @@
 pip install -r requirements.txt
 ```
 
-* start project
+* start project and named as "demo"
+```sh
+python manage.py startproject demo
+```
 
-*start app
+*start application and named "app"
+```sh
+python manage.py startapp app
+```
 
-* create models
+* create /app/models.py
 ```python
 class Note(models.Model):
 	created=models.DateTimeField(auto_now_add=False)
