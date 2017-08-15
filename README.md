@@ -20,7 +20,18 @@ class Note(models.Model):
 
 * create superuser
 
+* add app in setting.py
+
 * run server to check the admin page
 ```
 http://localhost:8000/admin
 ```
+* make directory /app/templates
+
+* create /app/form.py
+
+* create /app/view.py
+
+* add path in /demo/url.py
+
+
