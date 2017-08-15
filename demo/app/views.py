@@ -14,4 +14,4 @@ class CreateNoteView(CreateView):
 	queryset = Note()
 	template_name='note.html'
 	form_class = NoteForm
-	success_url = '/home'
+	success_url = '/'
