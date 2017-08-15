@@ -17,3 +17,10 @@ class Note(models.Model):
 	email=EmailField()
 	message=models.TextField()
 ```
+
+* create superuser
+
+* run server to check the admin page
+```
+http://localhost:8000/admin
+```
